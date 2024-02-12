@@ -7,7 +7,7 @@
     "depends": ["account"],
     "data": ["data/ir_ui_view.xml", "data/ir_actions_report.xml"],
     "application": False,
-    "license": "OEEL-1",
+    "license": "OPL-1",
     "currency": "USD",
     "icon": "rental_invoice_quittance/static/description/icon.png",
     "sequence": 10,
