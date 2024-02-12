@@ -13,7 +13,7 @@
     "images": ["static/description/banner.png"],
     "sequence": 10,
     "support": "support@hodei.net",
-    "price": "1.0",
+    "price": "0",
     "live_test_url": "https://www.hodei.cloud/",
     "website": "www.hodei.net",
     "summary": 'This module enables the creation of rental invoices titled "Quittance" for property management companies and landlords in France. It integrates seamlessly with Odoo\'s accounting and property management functionalities, providing a streamlined solution for the generation and management of rental invoices compliant with French regulations.',
