@@ -10,6 +10,7 @@
     "license": "OPL-1",
     "currency": "USD",
     "icon": "rental_invoice_quittance/static/description/icon.png",
+    "images": ["static/description/banner.png"],
     "sequence": 10,
     "support": "support@hodei.net",
     "price": "1.0",
