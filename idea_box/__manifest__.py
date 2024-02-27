@@ -16,7 +16,6 @@
     ],
     "application": False,
     "license": "OPL-1",
-    "icon": "static/description/icon.png",
     "images": ["static/description/banner.png"],
     "sequence": 10,
     "live_test_url": "https://www.hodei.net",
