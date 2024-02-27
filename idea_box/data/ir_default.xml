@@ -1,0 +1,17 @@
+<odoo>
+  <record id="idea_box.active_ideas_72555c58-7abc-4a2f-b8b4-c1e70492aacb" model="ir.default">
+    <field name="field_id" ref="idea_box.active_ideas_e8944729-2439-41e9-80cf-8577bac266bf" />
+    <field name="condition" eval="False" />
+    <field name="json_value">true</field>
+  </record>
+  <record id="idea_box.sequence_ideas_2e252af2-3615-471f-85f4-e283121a9b12" model="ir.default">
+    <field name="field_id" ref="idea_box.sequence_ideas_003309e3-37fd-46b2-a7b5-e13556339adc" />
+    <field name="condition" eval="False" />
+    <field name="json_value">10</field>
+  </record>
+  <record id="idea_box.stage_ideas_33d78b96-717b-4ac4-b4a8-6634730efd30" model="ir.default">
+    <field name="field_id" ref="idea_box.stage_ideas_76fba1e7-80a5-4b0c-bfc6-c486ac6e71fa" />
+    <field name="condition" eval="False" />
+    <field name="json_value">1</field>
+  </record>
+</odoo>

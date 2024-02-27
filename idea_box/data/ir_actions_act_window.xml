@@ -1,0 +1,89 @@
+<odoo>
+  <record id="idea_box.ideas_a46f3122-bb9d-444d-ad7a-7af527ce3f1f" model="ir.actions.act_window">
+    <field name="binding_model_id" eval="False" />
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False" />
+    <field name="filter" eval="False" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="help">&lt;p class="o_view_nocontent_smiling_face"&gt;
+                    This is your new action.
+                &lt;/p&gt;
+                &lt;p&gt;By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                &lt;/p&gt;
+            </field>
+    <field name="limit">80</field>
+    <field name="name">Ideas</field>
+    <field name="res_model">x_ideas</field>
+    <field name="search_view_id" eval="False" />
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False" />
+    <field name="view_id" eval="False" />
+    <field name="view_mode">kanban,tree,form,activity</field>
+  </record>
+  <record id="idea_box.ideas_stages_fa258334-760f-4d7d-b11e-95fb5a0cebb2" model="ir.actions.act_window">
+    <field name="binding_model_id" eval="False" />
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False" />
+    <field name="filter" eval="False" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="help">&lt;p class="o_view_nocontent_smiling_face"&gt;
+                    This is your new action.
+                &lt;/p&gt;
+                &lt;p&gt;By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                &lt;/p&gt;
+            </field>
+    <field name="limit">80</field>
+    <field name="name">Ideas Stages</field>
+    <field name="res_model">x_ideas_stage</field>
+    <field name="search_view_id" eval="False" />
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False" />
+    <field name="view_id" eval="False" />
+    <field name="view_mode">tree,form</field>
+  </record>
+  <record id="idea_box.ideas_tags_22248a84-8a8a-4f0d-b36b-d9ccd5cb489c" model="ir.actions.act_window">
+    <field name="binding_model_id" eval="False" />
+    <field name="binding_type">action</field>
+    <field name="binding_view_types">list,form</field>
+    <field name="context">{}</field>
+    <field name="domain" eval="False" />
+    <field name="filter" eval="False" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="help">&lt;p class="o_view_nocontent_smiling_face"&gt;
+                    This is your new action.
+                &lt;/p&gt;
+                &lt;p&gt;By default, it contains a list and a form view and possibly
+                    other view types depending on the options you chose for your model.
+                &lt;/p&gt;
+                &lt;p&gt;
+                    You can start customizing these screens by clicking on the Studio icon on the
+                    top right corner (you can also customize this help message there).
+                &lt;/p&gt;
+            </field>
+    <field name="limit">80</field>
+    <field name="name">Ideas Tags</field>
+    <field name="res_model">x_ideas_tag</field>
+    <field name="search_view_id" eval="False" />
+    <field name="target">current</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="usage" eval="False" />
+    <field name="view_id" eval="False" />
+    <field name="view_mode">tree,form</field>
+  </record>
+</odoo>

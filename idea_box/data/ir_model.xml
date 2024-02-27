@@ -1,0 +1,56 @@
+<odoo>
+  <record id="idea_box.ideas_778a9014-4352-4a5c-80ff-d1cfc2ef7eff" model="ir.model">
+    <field name="info"> Main super-class for regular database-persisted Odoo models.
+
+    Odoo models are created by inheriting from this class::
+
+        class user(Model):
+            ...
+
+    The system will later instantiate the class once per database (on
+    which the class' module is installed).
+    </field>
+    <field name="is_mail_thread" eval="True" />
+    <field name="is_mail_activity" eval="True" />
+    <field name="model">x_ideas</field>
+    <field name="name">Ideas</field>
+    <field name="state">manual</field>
+    <field name="transient" eval="False" />
+  </record>
+  <record id="idea_box.ideas_stages_13872d17-f751-4822-bffb-43483e7671bf" model="ir.model">
+    <field name="info"> Main super-class for regular database-persisted Odoo models.
+
+    Odoo models are created by inheriting from this class::
+
+        class user(Model):
+            ...
+
+    The system will later instantiate the class once per database (on
+    which the class' module is installed).
+    </field>
+    <field name="is_mail_thread" eval="False" />
+    <field name="is_mail_activity" eval="False" />
+    <field name="model">x_ideas_stage</field>
+    <field name="name">Ideas Stages</field>
+    <field name="state">manual</field>
+    <field name="transient" eval="False" />
+  </record>
+  <record id="idea_box.ideas_tags_6a31baaf-d79b-4599-90c4-3b9f068d580d" model="ir.model">
+    <field name="info"> Main super-class for regular database-persisted Odoo models.
+
+    Odoo models are created by inheriting from this class::
+
+        class user(Model):
+            ...
+
+    The system will later instantiate the class once per database (on
+    which the class' module is installed).
+    </field>
+    <field name="is_mail_thread" eval="False" />
+    <field name="is_mail_activity" eval="False" />
+    <field name="model">x_ideas_tag</field>
+    <field name="name">Ideas Tags</field>
+    <field name="state">manual</field>
+    <field name="transient" eval="False" />
+  </record>
+</odoo>

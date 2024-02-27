@@ -1,0 +1,62 @@
+<odoo>
+  <record id="idea_box.ideas_group_system_38cb011a-9ac2-4d3c-83ea-13e74fab8fe9" model="ir.model.access">
+    <field name="active" eval="True" />
+    <field name="group_id" ref="base.group_system" />
+    <field name="model_id" ref="idea_box.ideas_778a9014-4352-4a5c-80ff-d1cfc2ef7eff" />
+    <field name="name">Ideas group_system</field>
+    <field name="perm_create" eval="True" />
+    <field name="perm_read" eval="True" />
+    <field name="perm_unlink" eval="True" />
+    <field name="perm_write" eval="True" />
+  </record>
+  <record id="idea_box.ideas_group_user_768299e5-d206-4532-9183-790507b93bb6" model="ir.model.access">
+    <field name="active" eval="True" />
+    <field name="group_id" ref="base.group_user" />
+    <field name="model_id" ref="idea_box.ideas_778a9014-4352-4a5c-80ff-d1cfc2ef7eff" />
+    <field name="name">Ideas group_user</field>
+    <field name="perm_create" eval="True" />
+    <field name="perm_read" eval="True" />
+    <field name="perm_unlink" eval="False" />
+    <field name="perm_write" eval="True" />
+  </record>
+  <record id="idea_box.ideas_stages_group_s_0f57d479-5abe-4b22-9043-e495efe8f9a2" model="ir.model.access">
+    <field name="active" eval="True" />
+    <field name="group_id" ref="base.group_system" />
+    <field name="model_id" ref="idea_box.ideas_stages_13872d17-f751-4822-bffb-43483e7671bf" />
+    <field name="name">Ideas Stages group_system</field>
+    <field name="perm_create" eval="True" />
+    <field name="perm_read" eval="True" />
+    <field name="perm_unlink" eval="True" />
+    <field name="perm_write" eval="True" />
+  </record>
+  <record id="idea_box.ideas_stages_group_u_056608d8-1411-4934-8fe6-71b7fc87390b" model="ir.model.access">
+    <field name="active" eval="True" />
+    <field name="group_id" ref="base.group_user" />
+    <field name="model_id" ref="idea_box.ideas_stages_13872d17-f751-4822-bffb-43483e7671bf" />
+    <field name="name">Ideas Stages group_user</field>
+    <field name="perm_create" eval="True" />
+    <field name="perm_read" eval="True" />
+    <field name="perm_unlink" eval="False" />
+    <field name="perm_write" eval="True" />
+  </record>
+  <record id="idea_box.ideas_tags_group_sys_f19402e6-a949-4a06-875f-07b80049ba1b" model="ir.model.access">
+    <field name="active" eval="True" />
+    <field name="group_id" ref="base.group_system" />
+    <field name="model_id" ref="idea_box.ideas_tags_6a31baaf-d79b-4599-90c4-3b9f068d580d" />
+    <field name="name">Ideas Tags group_system</field>
+    <field name="perm_create" eval="True" />
+    <field name="perm_read" eval="True" />
+    <field name="perm_unlink" eval="True" />
+    <field name="perm_write" eval="True" />
+  </record>
+  <record id="idea_box.ideas_tags_group_use_48bb94ec-6fd2-4f8d-bd03-f8237113ede1" model="ir.model.access">
+    <field name="active" eval="True" />
+    <field name="group_id" ref="base.group_user" />
+    <field name="model_id" ref="idea_box.ideas_tags_6a31baaf-d79b-4599-90c4-3b9f068d580d" />
+    <field name="name">Ideas Tags group_user</field>
+    <field name="perm_create" eval="True" />
+    <field name="perm_read" eval="True" />
+    <field name="perm_unlink" eval="False" />
+    <field name="perm_write" eval="True" />
+  </record>
+</odoo>

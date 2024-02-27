@@ -1,0 +1,47 @@
+<odoo>
+  <record id="idea_box.idea_box_df6f58f3-0795-47ea-a77c-6f301e47c738" model="ir.ui.menu">
+    <field name="action" eval="False" />
+    <field name="active" eval="True" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="name">Idea box</field>
+    <field name="parent_id" eval="False" />
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False" />
+  </record>
+  <record id="idea_box.idea_box_configurati_ad549844-2de4-4e3d-8c9b-c02afbfe3f55" model="ir.ui.menu">
+    <field name="action" eval="False" />
+    <field name="active" eval="True" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="name">Configuration</field>
+    <field name="parent_id" ref="idea_box.idea_box_df6f58f3-0795-47ea-a77c-6f301e47c738" />
+    <field name="sequence">100</field>
+    <field name="web_icon" eval="False" />
+  </record>
+  <record id="idea_box.idea_box_configurati_b15e56b5-907a-4a2a-9df9-8287c8bcd6bc" model="ir.ui.menu">
+    <field name="action" ref="idea_box.ideas_tags_22248a84-8a8a-4f0d-b36b-d9ccd5cb489c" />
+    <field name="active" eval="True" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="name">Ideas Tags</field>
+    <field name="parent_id" ref="idea_box.idea_box_configurati_ad549844-2de4-4e3d-8c9b-c02afbfe3f55" />
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False" />
+  </record>
+  <record id="idea_box.idea_box_configurati_d4157b18-46ff-48aa-a346-329eea1ccafa" model="ir.ui.menu">
+    <field name="action" ref="idea_box.ideas_stages_fa258334-760f-4d7d-b11e-95fb5a0cebb2" />
+    <field name="active" eval="True" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="name">Ideas Stages</field>
+    <field name="parent_id" ref="idea_box.idea_box_configurati_ad549844-2de4-4e3d-8c9b-c02afbfe3f55" />
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False" />
+  </record>
+  <record id="idea_box.idea_box_ideas_f69dd0af-40fe-4d0f-a280-4be247532079" model="ir.ui.menu">
+    <field name="action" ref="idea_box.ideas_a46f3122-bb9d-444d-ad7a-7af527ce3f1f" />
+    <field name="active" eval="True" />
+    <field name="groups_id" eval="[(6, 0, [])]" />
+    <field name="name">Ideas</field>
+    <field name="parent_id" ref="idea_box.idea_box_df6f58f3-0795-47ea-a77c-6f301e47c738" />
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False" />
+  </record>
+</odoo>
