@@ -1,109 +1,125 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<title>Nos services</title>
-<!-- Add link to Font Awesome for icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-<style>
-/* Basic styling; you should expand upon this with your own styles */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-.service-list {
-  margin-bottom: 40px;
-}
-.feature {
-  margin-bottom: 20px;
-}
-.feature img, .feature .fas {
-  margin-right: 10px;
-}
-.questions ul {
-  list-style-type: none;
-}
-.questions li {
-  margin-bottom: 10px;
-}
-footer {
-  background-color: #f8f9fa;
-  padding: 20px;
-  text-align: center;
-}
-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #0056b3;
-}
-</style>
-</head>
-<body>
-
-<div class="container">
-  <h1>Nos services</h1>
-
-  <div class="service-list">
-    <h2>Première liste de fonctionnalités</h2>
-    <p>Ajoutez un super slogan.</p>
-    <div class="feature">
-      <i class="fas fa-edit"></i>
-      <h3>Modifier les icônes</h3>
-      <p>Double-cliquez sur une icône pour la remplacer par une de votre choix.</p>
-    </div>
-    <div class="feature">
-      <i class="fas fa-clone"></i>
-      <h3>Dupliquer</h3>
-      <p>Dupliquez les blocs et les colonnes pour ajouter plus de fonctionnalités.</p>
-    </div>
-    <div class="feature">
-      <i class="fas fa-trash-alt"></i>
-      <h3>Supprimer des blocs</h3>
-      <p>Sélectionnez et supprimez des blocs pour enlever des fonctionnalités.</p>
-    </div>
-  </div>
-
-  <div class="service-list">
-    <h2>Deuxième liste de fonctionnalités</h2>
-    <p>Ajoutez un super slogan.</p>
-    <div class="feature">
-      <i class="fas fa-chart-line"></i>
-      <h3>Excellent rapport qualité-prix</h3>
-      <p>Transformez chaque fonctionnalité en bénéfice pour votre lecteur.</p>
-    </div>
-    <div class="feature">
-      <i class="fas fa-paint-brush"></i>
-      <h3>Editer les styles</h3>
-      <p>Vous pouvez modifier les couleurs et les arrière-plans pour mettre en évidence les fonctionnalités.</p>
-    </div>
-    <div class="feature">
-      <i class="fas fa-icons"></i>
-      <h3>Exemples d'icônes</h3>
-      <p>Toutes ces icônes peuvent être utilisées gratuitement dans le cadre d'une utilisation commerciale.</p>
-    </div>
-  </div>
-
-  <section class="questions">
-    <h2>Des questions ?</h2>
-    <ul>
-      <li><i class="fas fa-file-contract"></i> <a href="#">Conditions d'utilisation</a></li>
-      <li><i class="fas fa-external-link-alt"></i> <a href="#">Liens vers d'autres sites web</a></li>
-      <li><i class="fas fa-cookie-bite"></i> <a href="#">Utilisation des cookies</a></li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>Plus de 50.000 sociétés utilisent Odoo pour faire croître leur business.</p>
-    <button>Contactez-nous</button>
-  </footer>
-
+<t t-name="website.module-idea-box">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty"><section class="s_text_block pt40 pb0 o_colored_level" data-snippet="s_text_block" data-name="Texte" style="background-image: none;">
+        <div class="container s_allow_columns">
+            <h1 style="text-align: center;">Nos services</h1>
+        </div>
+    </section>
+    <section class="s_features_grid pt48 pb24" data-snippet="s_features_grid" data-name="Grille de fonctionnalités">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 s_col_no_bgcolor pb24">
+                    <div class="row">
+                        <div class="col-lg-12 pb24" data-name="Box">
+                            <h2>Première liste de fonctionnalités</h2>
+                            <h5>Ajoutez un super slogan.</h5>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16" data-name="Box">
+                            <i class="fa fa-2x fa-font-awesome rounded-circle bg-o-color-1 s_features_grid_icon"/>
+                            <div class="s_features_grid_content">
+                                <h4>Modifier les icônes</h4>
+                                <p>Double-cliquez sur une icône pour la remplacer par une de votre choix.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16" data-name="Box">
+                            <i class="fa fa-2x fa-files-o rounded-circle bg-o-color-1 s_features_grid_icon"/>
+                            <div class="s_features_grid_content">
+                                <h4>Dupliquer</h4>
+                                <p>Dupliquez les blocs et les colonnes pour ajouter plus de fonctionnalités. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16" data-name="Box">
+                            <i class="fa fa-2x fa-trash rounded-circle bg-o-color-1 s_features_grid_icon"/>
+                            <div class="s_features_grid_content">
+                                <h4>Supprimer des blocs</h4>
+                                <p>Sélectionnez et supprimez des blocs pour enlever des fonctionnalités.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 s_col_no_bgcolor pb24">
+                    <div class="row">
+                        <div class="col-lg-12 pb24" data-name="Box">
+                            <h2>Deuxième liste de fonctionnalités</h2>
+                            <h5>Ajoutez un super slogan.</h5>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16" data-name="Box">
+                            <i class="fa fa-2x fa-magic rounded bg-o-color-2 s_features_grid_icon"/>
+                            <div class="s_features_grid_content">
+                                <h4>Excellent rapport qualité-prix</h4>
+                                <p>Transformez chaque fonctionnalité en bénéfice pour votre lecteur.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16" data-name="Box">
+                            <i class="fa fa-2x fa-eyedropper rounded bg-o-color-2 s_features_grid_icon"/>
+                            <div class="s_features_grid_content">
+                                <h4>Editer les styles</h4>
+                                <p>Vous pouvez modifier les couleurs et les arrière-plans pour mettre en évidence les fonctionnalités.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 pt16 pb16" data-name="Box">
+                            <i class="fa fa-2x fa-picture-o rounded bg-o-color-2 s_features_grid_icon"/>
+                            <div class="s_features_grid_content">
+                                <h4>Exemples d'icônes</h4>
+                                <p>Toutes ces icônes peuvent être utilisées gratuitement dans le cadre d'une utilisation commerciale.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_text_block pt40 pb0" data-snippet="s_text_block" data-name="Texte">
+        <div class="container s_allow_columns">
+            <h2 style="text-align: left;">Des questions ?</h2>
+        </div>
+    </section>
+    <section class="s_faq_collapse pt32 pb32" data-snippet="s_faq_collapse" data-name="Accordéon">
+        <div class="container">
+            <div id="myCollapse" class="accordion" role="tablist">
+                <div class="card bg-white" data-name="Item">
+                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="true" class="card-header" data-bs-target="#myCollapseTab627407_1">Conditions d'utilisation</a>
+                    <div class="collapse show" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab627407_1">
+                        <div class="card-body">
+                            <p class="card-text">Ces conditions de service ("Conditions", "Accord") sont un accord entre le site Web ("Exploitant du site Web", "nous", "nous" ou "nos") et vous ("Utilisateur", "vous" ou "votre "). Le présent accord définit les conditions générales de votre utilisation de ce site Web et de l'un de ses produits ou services (collectivement, "site Web" ou "services").</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white" data-name="Item">
+                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header" data-bs-target="#myCollapseTab627407_2">Liens vers d'autres sites web</a>
+                    <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab627407_2">
+                        <div class="card-body">
+                            <p class="card-text">Bien que ce site web puisse être lié à d'autres sites web, nous ne sommes pas impliqués, directement ou indirectement, dans aucune approbation, association, parrainage, adhésion ou affiliation avec un site web lié, sauf indication contraire dans la présente.</p>
+                            <p class="card-text">Vous devez lire attentivement les mentions légales et les autres conditions d'utilisation de tout site web auquel vous accédez via un lien à partir de ce site web. Votre lien vers d'autres pages hors site ou d'autres sites web est à vos propres risques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-white" data-name="Item">
+                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header" data-bs-target="#myCollapseTab627407_3">Utilisation des cookies</a>
+                    <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab627407_3">
+                        <div class="card-body">
+                            <p class="card-text">Le site web peut utiliser des cookies afin de personnaliser et de faciliter la navigation maximale de l'utilisateur sur ce site. L'Utilisateur peut configurer son navigateur pour être notifié et refuser l'installation des cookies que nous lui envoyons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_call_to_action o_cc o_cc3 pt48 pb24" data-snippet="s_call_to_action" data-name="Appel à l&amp;#x27;action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 pb16">
+                    <h3><b>Plus de 50.000 sociétés</b> utilisent Odoo pour faire croître leur business.</h3>
+                    <p>Rejoignez-nous et passez à la vitesse supérieure.</p>
+                </div>
+                <div class="col-lg-3 pt8">
+                    <p style="text-align: right;">
+                        <a class="btn btn-primary btn-lg" href="">Contactez-nous</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
-
-</body>
-</html>
+    </t>
+</t>
