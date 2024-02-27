@@ -19,8 +19,8 @@
     "icon": "static/description/icon.png",
     "images": ["static/description/banner.png"],
     "sequence": 10,
-    "live_test_url": "www.hodei.net",
+    "live_test_url": "https://www.hodei.net",
     "summary": 'The "Idea Box" module for Odoo version 17 is a versatile tool designed to capture and organize employee suggestions for improving company operations and workplace environment. This module provides a Kanban view for easy visualization and management of ideas. Within the form view, users can define each idea with fields for the name, person responsible, tags, description, importance, and priority. This employee-driven innovation tool fosters a collaborative culture, streamlines the idea management process, and prioritizes initiatives for effective implementation.',
-    "support": "www.hodei.net",
-    "website": "www.hodei.net",
+    "support": "https://www.hodei.net",
+    "website": "https://www.hodei.net",
 }
