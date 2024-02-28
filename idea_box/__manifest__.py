@@ -4,7 +4,7 @@
     "version": "17.0.0.1",
     "category": "Employees",
     "author": "Hodei",
-    "depends": ["base, discuss"],
+    "depends": ["base", "mail"],
     "data": [
         "data/ir_model.xml",
         "data/ir_model_fields.xml",
