@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Idea box",
-    "version": "17.0.0.1",
+    "version": "saas~17.1.1.0",
     "category": "Employees",
     "author": "Hodei",
     "depends": ["base", "mail"],
