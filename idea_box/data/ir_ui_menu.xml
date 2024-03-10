@@ -6,7 +6,7 @@
     <field name="name">Idea box</field>
     <field name="parent_id" eval="False" />
     <field name="sequence">10</field>
-    <field name="web_icon" eval="idea_box/static/description/icon.png" />
+    <field name="web_icon" eval="idea_box,static/description/icon.png" />
   </record>
   <record id="idea_box.idea_box_configurati_ad549844-2de4-4e3d-8c9b-c02afbfe3f55" model="ir.ui.menu">
     <field name="action" eval="False" />
